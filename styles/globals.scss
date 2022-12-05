@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "~tailwindcss/dist/tailwind.min.css";
+
+* {
+  font-family: 'Spartan', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.2s ease-out;
+}
+
+body {
+  margin: 0;
+  background-color: #3B4664;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+}
